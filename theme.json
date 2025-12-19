@@ -1,0 +1,108 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 1,
+	"settings": {
+        "appearanceTools": true,
+        "layout": {
+            "contentSize": "1040px",
+            "wideSize": "1080px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Poppins",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "./assets/fonts/poppins.ttf"
+                            ]
+                        }
+                    ],
+                    "name": "Poppins",
+                    "slug": "poppins"
+                }
+            ]
+        }
+    },
+	"styles": {
+        "typography": {
+            "fontFamily": "Poppins",
+            "fontSize" : "14px"
+        },
+        "color" : {
+            "background" : "#cfb8db",
+            "text" : "#222"
+        },
+        "elements" : {
+            "heading" : {
+                "typography": {
+                    "fontWeight" : "600"
+                },
+                 "spacing" : {
+                    "margin" : {
+                        "top" : "0",
+                        "bottom" : "0"
+                    }
+                 }
+            }
+        },
+        "blocks" : {
+           "core/group" : {
+             "variations" : {
+                    "justifyContent" : {
+                        "justify-content" : "center"
+                    }
+                }
+           },
+           "core/paragraph" : {
+                "spacing" : {
+                    "margin" : {
+                        "top" : "0",
+                        "bottom" : "0"
+                    }
+                }
+           },
+           "core/navigation-link" : {
+                "spacing" : {
+                    "margin": {
+                        "top" : "0",
+                        "left" : "0",
+                        "right" : "0",
+                        "bottom" : "0"
+                    }
+                }
+           },
+           "core/navigation" : {
+                "spacing" : {
+                    "padding": {
+                        "top" : "0",
+                        "left" : "0",
+                        "right" : "0",
+                        "bottom" : "0"
+                    }
+                }
+           },
+           "core/social-links" : {
+            "spacing"  : {
+                "blockGap" : "6px"
+            }
+           }
+        }
+    },
+	"customTemplates": {},
+	"templateParts": [
+        {
+            "area" : "header",
+            "name" : "header",
+            "title" : "Header"
+        },
+        {
+            "area" : "footer",
+            "name" : "footer",
+            "title" : "Footer"
+        }
+    ],
+	"patterns" : [
+        
+    ]
+}
