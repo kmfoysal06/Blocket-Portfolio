@@ -9,12 +9,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install dependencies and build assets
-      run: |
-        cd assets
-        npm install
-        npm run build
-
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.6
       with:
