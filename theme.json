@@ -22,6 +22,22 @@
                     "slug": "poppins"
                 }
             ]
+        },
+        "color" : {
+            "defaultPalette" : true,
+            "custom" : true,
+            "palette": [
+                {
+                    "slug": "kmfoysal-theme",
+                    "color": "purple",
+                    "name": "Kazi Mohammad Foysal Theme Color"
+                },
+                {
+                    "slug": "ezway",
+                    "color": "#ff8a00",
+                    "name": "Ezway Theme Color"
+                }
+            ]
         }
     },
 	"styles": {
