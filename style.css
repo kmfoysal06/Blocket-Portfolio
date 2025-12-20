@@ -4,4 +4,14 @@
  * Version: 1.0
  * Description: A full site editing portfolio site.
  */
- 
+
+ @media screen and (max-width: 480px) {
+    
+    .is-style-hero-section-row h1{
+        font-size: 48px!important;
+    }
+    .is-style-hero-section-row h2{
+        font-size: 36px!important;
+    }
+    
+ }

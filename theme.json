@@ -14,7 +14,7 @@
                     "fontFace": [
                         {
                             "src": [
-                                "./assets/fonts/poppins.ttf"
+                                "file:./assets/fonts/poppins.ttf"
                             ]
                         }
                     ],
